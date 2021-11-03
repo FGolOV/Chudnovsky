@@ -13,6 +13,6 @@ def pi(n):
     pi = pi ** (-1)
     return pi
 
-n = int(input())
+n = int(input('Введите желаемое кол-во знаков после запятой'))
 getcontext().prec = n + 1
 print(pi(n))
